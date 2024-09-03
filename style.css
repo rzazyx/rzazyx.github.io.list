@@ -65,7 +65,7 @@ body{
 #tasks{
     background-color: #ffffff;
     padding: 30px 20px;
-    margin-top: 60px;
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     width: 100%;
@@ -111,7 +111,7 @@ body{
     background-color: #ffffff;
     height: 50px;
     padding: 5px 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,5 +149,24 @@ body{
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 20px; /* Space between the message and task input */
+}
+#task-progress {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 0px; /* Space between progress and tasks */
+    display: none; /* Initially hidden */
+    align-items: center;
+}
+
+#task-progress.show {
+    display: flex; /* Show only when class 'show' is added */
+}
+
+#task-progress span {
+    font-weight: 700;
+    margin: 0 5px;
 }
 
