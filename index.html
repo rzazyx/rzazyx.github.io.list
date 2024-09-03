@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link ke FontAwesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Link ke font Poppins dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Div untuk menampilkan tanggal saat ini -->
+        <div id="current-date"></div>
+
+        <!-- Motivational message -->
+        <div id="motivation-message">
+            Let's be productive today. What are we going to do?
+        </div>
+
+        <div id="newtask">
+            <input type="text" placeholder="Add a new task...">
+            <input type="time" id="task-time" placeholder="Time">
+            <button id="push">Add Task</button>
+        </div>
+        <div id="tasks">
+            <!-- Tasks will be added here -->
+        </div>
+    </div>
+    <!-- Link ke file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
